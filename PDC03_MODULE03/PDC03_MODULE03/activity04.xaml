@@ -11,7 +11,8 @@
                          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.2}"/>
                 
                 <BoxView Color="Black"
-                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Boxview1, Property=Height, Factor=0.8}"/>
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Boxview1, Property=Height, Factor=0.8}"
+                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Boxview1, Property=Width, Factor=0.3}"/>
             </RelativeLayout>
         </StackLayout>
     </ContentPage.Content>
